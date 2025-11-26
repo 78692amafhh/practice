@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial';
+    color: #fff;
+}
+html,
+body,
+main,
+.reel,
+.reel video,
+.reels {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main{
+    overflow: hidden;
+    max-height: 700px;
+}
+.reels::-webkit-scrollbar{
+    display: none;
+}
+.reels {
+    max-width: 350px;
+    margin: auto;
+    position: relative;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+.reel video{
+ object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+}
+.reel {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    position: relative;
+}
+.childTop {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.childTop h2{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.childTop img{
+    height: 25px;
+    width: 25px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+button{
+    
+    color: #000000;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+.right {
+    position: absolute;
+    right: 0;
+    bottom: 120px;
+    transform: translate(-50%, -50%);
+    gap: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 220px;
+    z-index: 99;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.reel:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(
+0deg, black, transparent);
+}
+.flexC {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.likesCount h4, .likeCount{
+    pointer-events: none;
+}

@@ -6,7 +6,7 @@ const reels = [
     followersCount: 1200,
     followingCount: 320,
 
-    videoUrl: './reels/1.mp4',
+    videoUrl: '1.mp4',
     thumbnailUrl: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     caption: 'A quick CSS trick #css #frontend',
     tags: ['css','frontend','trick'],
@@ -27,7 +27,7 @@ const reels = [
     followersCount: 34000,
     followingCount: 410,
 
-    videoUrl: './reels/2.mp4',
+    videoUrl: '1.mp4',
     thumbnailUrl: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     caption: 'Sunrise at the valley ',
     tags: ['travel','sunrise'],
@@ -48,7 +48,7 @@ const reels = [
     followersCount: 8200,
     followingCount: 98,
 
-    videoUrl: './reels/3.mp4',
+    videoUrl: '1.mp4',
     thumbnailUrl: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     caption: 'Decent paneer tikka in 10 minutes ',
     tags: ['food','recipe','quick'],
@@ -69,7 +69,7 @@ const reels = [
     followersCount: 54000,
     followingCount: 200,
 
-    videoUrl: './reels/4.mp4',
+    videoUrl: '1.mp4',
     thumbnailUrl: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     caption: 'Microinteraction ideas for buttons 🔁',
     tags: ['ui','ux','microinteractions'],
@@ -90,7 +90,7 @@ const reels = [
     followersCount: 900,
     followingCount: 120,
 
-    videoUrl: './reels/5.mp4',
+    videoUrl: '1.mp4',
     thumbnailUrl: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     caption: '5-minute core routine ',
     tags: ['fitness','workout','core'],
@@ -166,6 +166,7 @@ allReals.addEventListener('click',
 newdata();
   }
 )
+
 
 
 
